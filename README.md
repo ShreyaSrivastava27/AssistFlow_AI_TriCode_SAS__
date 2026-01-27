@@ -38,6 +38,9 @@ AssistFlow AI acts as an **AI co-pilot for support agents** by:
 
 ## 🔁 Input & Output
 
+AssistFlow AI analyzes incoming customer support tickets and produces a structured, explainable response.
+Based on the severity and complexity of the issue, the system either routes the ticket to a human agent or resolves it automatically using an AI agent.
+
 ### 📥 Input
 Customer support ticket text:
 "My payment was deducted twice but the order is still pending. Very frustrated."
@@ -45,8 +48,6 @@ Customer support ticket text:
 
 ## 📤 Output
 The system generates a structured and explainable response for each customer support ticket.
-
-```json
 {
   "Issue Category": "Payment Issue",
   "Priority": "Critical",
@@ -56,6 +57,7 @@ The system generates a structured and explainable response for each customer sup
 
 
 
+Our application reads a customer support message and tells the agent what the issue is, how urgent it is and what to do next the issue is handled by AI or if problem is critical then AI will lead it to human agent support.
 
 🛠 Tech Stack
 
