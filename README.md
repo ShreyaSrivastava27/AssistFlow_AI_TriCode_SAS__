@@ -88,7 +88,7 @@ The system generates a structured and explainable response for each customer sup
 
 Our application reads a customer support message and tells the agent what the issue is, how urgent it is and what to do next the issue is handled by AI or if problem is critical then AI will lead it to human agent support.
 ## For AB testing
-<h6>We are storing user inputs live in tickets.csv for performing AB testing of our models</h6>
+<b>We are storing user inputs live in tickets.csv for performing AB testing of our models</b>
 <br/>
 Model Comparison: Evaluate multiple models using confidence scores.
 <br/>
@@ -100,18 +100,30 @@ Category Classification: Classify data points into relevant categories based on 
 <br/>
 A/B Testing Analysis: Compare models based on performance metrics and confidence levels.
 <br/>
-🛠 Tech Stack
+
+## 📊 Analytics & Insights
+
+The Analytics dashboard provides:
+- Ticket volume over time
+- Issue category trends
+- Urgency distribution
+- Model confidence trends
+- Issue complexity trends
+- Model usage comparison (A/B testing)
+- Drift detection and emerging issue signals
+  
+## 🛠 Tech Stack
 
 Programming Language: Python
 Used for building the complete backend logic and AI integration.
 
-<h6>Generative AI: Llama-3.1-8b-instant / Llama-3.3-70b-versatile/ Openai/gpt-oss-120b </h6>
+<b>Generative AI: Llama-3.1-8b-instant / Llama-3.3-70b-versatile/ Openai/gpt-oss-120b </b>
 Enables fast and context-aware analysis of customer support tickets using large language models.
 
 NLP Utilities: scikit-learn
 Used for basic text preprocessing and supporting NLP operations.
 
-<h6>UI Framework: Streamlit</h6>
+<b>UI Framework: Streamlit</b>
 Provides a simple and interactive web-based dashboard for real-time ticket analysis.
 
 Deployment: Local
