@@ -62,6 +62,7 @@ Return a JSON object with exactly these fields:<br/>
 - confidence (number between 0 and 1)<br/>
 """<br/>
 Then we converted json output in user interface
+<br/>
 ## 🔁 Input & Output
 
 AssistFlow AI analyzes incoming customer support tickets and produces a structured, explainable response.
