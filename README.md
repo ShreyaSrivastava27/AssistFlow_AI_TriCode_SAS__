@@ -60,7 +60,7 @@ Return a JSON object with exactly these fields:<br/>
 - suggested_actions (array of strings)<br/>
 - explanation (string)<br/>
 - confidence (number between 0 and 1)<br/>
-"""
+"""<br/>
 ## 🔁 Input & Output
 
 AssistFlow AI analyzes incoming customer support tickets and produces a structured, explainable response.
