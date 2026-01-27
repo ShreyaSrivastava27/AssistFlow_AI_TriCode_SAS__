@@ -52,14 +52,14 @@ No markdown. No extra text.
 """
 
 <br/>
-Return Output as-
-Return a JSON object with exactly these fields:
-- issue (string)
-- category (one of: Authentication, Billing, Performance, UI Bug, Integration, Other)
-- urgency (one of: Critical, High, Medium, Low)
-- suggested_actions (array of strings)
-- explanation (string)
-- confidence (number between 0 and 1)
+Return Output as-<br/>
+Return a JSON object with exactly these fields:<br/>
+- issue (string)<br/>
+- category (one of: Authentication, Billing, Performance, UI Bug, Integration, Other)<br>
+- urgency (one of: Critical, High, Medium, Low)<br/>
+- suggested_actions (array of strings)<br/>
+- explanation (string)<br/>
+- confidence (number between 0 and 1)<br/>
 """
 ## 🔁 Input & Output
 
