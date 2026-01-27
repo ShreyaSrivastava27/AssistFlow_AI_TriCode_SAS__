@@ -75,4 +75,4 @@ UI Framework: Streamlit
 Provides a simple and interactive web-based dashboard for real-time ticket analysis.
 
 Deployment: Local
-The application is deployed locally for hackathon demonstrations, ensuring quick setup and reliable execution.
+
