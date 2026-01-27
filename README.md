@@ -61,6 +61,7 @@ Return a JSON object with exactly these fields:<br/>
 - explanation (string)<br/>
 - confidence (number between 0 and 1)<br/>
 """<br/>
+Then we converted json output in user interface
 ## 🔁 Input & Output
 
 AssistFlow AI analyzes incoming customer support tickets and produces a structured, explainable response.
@@ -84,7 +85,19 @@ The system generates a structured and explainable response for each customer sup
 
 
 Our application reads a customer support message and tells the agent what the issue is, how urgent it is and what to do next the issue is handled by AI or if problem is critical then AI will lead it to human agent support.
-
+## For AB testing
+We are storing user inputs live in tickets.csv
+<br/>
+Model Comparison: Evaluate multiple models using confidence scores.
+<br/>
+Average Confidence Score: Calculate the mean confidence score of predictions for each model.
+<br/>
+Urgency Classification: Classify data points into predefined urgency levels (e.g., High, Medium, Low).
+<br/>
+Category Classification: Classify data points into relevant categories based on the content.
+<br/>
+A/B Testing Analysis: Compare models based on performance metrics and confidence levels.
+<br/>
 🛠 Tech Stack
 
 Programming Language: Python
