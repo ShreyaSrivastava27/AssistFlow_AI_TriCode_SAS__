@@ -1,0 +1,30 @@
+1. I keep getting logged out every few minutes. This started after the SSO update.
+2. None of our users can log in using Google SSO anymore.
+3. Login page just refreshes endlessly and never lets me in.
+4. Password reset emails are not coming through.
+
+5. We were charged twice for the same subscription this month.
+6. My credit card was declined even though it works everywhere else.
+7. Our account was downgraded even though we paid last week.
+8. Invoice shows the wrong number of seats after our upgrade.
+
+9. The dashboard takes over a minute to load since yesterday.
+10. Reports time out whenever I try to export them.
+11. The app becomes extremely slow during peak hours.
+12. Pages freeze randomly when switching between tabs.
+
+13. Buttons overlap on mobile and I can’t click submit.
+14. The settings page is completely blank on Safari.
+15. Text is cut off in the modal window.
+16. Dark mode makes the text unreadable.
+
+17. Our Slack integration stopped posting alerts.
+18. Webhook events are firing intermittently.
+19. The API returns a 500 error when creating new records.
+20. Salesforce sync hasn’t worked since last Friday.
+
+21. booo
+22. This is frustrating and not what we expected.
+23. Something is broken but I don’t know what.
+24. Your product used to work fine.
+25. HELP!!!
