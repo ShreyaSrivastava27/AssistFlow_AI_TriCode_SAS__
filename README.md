@@ -35,7 +35,32 @@ AssistFlow AI acts as an **AI co-pilot for support agents** by:
 - Interactive dashboard  
 
 ---
+## We used System and User prompts-
+SYSTEM_PROMPT = """
+You are an AI support triage assistant for a SaaS company.
 
+Your task:
+- Read a customer support ticket
+- Identify the underlying issue (not just keywords)
+- Classify the issue category
+- Determine urgency
+- Suggest next actions for a human support agent
+- Explain your reasoning clearly and concisely
+
+You MUST return a valid JSON object only.
+No markdown. No extra text.
+"""
+
+<br/>
+Return Output as-
+Return a JSON object with exactly these fields:
+- issue (string)
+- category (one of: Authentication, Billing, Performance, UI Bug, Integration, Other)
+- urgency (one of: Critical, High, Medium, Low)
+- suggested_actions (array of strings)
+- explanation (string)
+- confidence (number between 0 and 1)
+"""
 ## 🔁 Input & Output
 
 AssistFlow AI analyzes incoming customer support tickets and produces a structured, explainable response.
@@ -65,7 +90,7 @@ Our application reads a customer support message and tells the agent what the is
 Programming Language: Python
 Used for building the complete backend logic and AI integration.
 
-Generative AI: OpenAI / Gemini / Groq (LLaMA-3)
+Generative AI: Llama-3.1-8b-instant / Llama-3.3-70b-versatile/ Openai/gpt-oss-120b 
 Enables fast and context-aware analysis of customer support tickets using large language models.
 
 NLP Utilities: scikit-learn
