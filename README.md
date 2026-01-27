@@ -48,12 +48,13 @@ Customer support ticket text:
 
 ## 📤 Output
 The system generates a structured and explainable response for each customer support ticket.
-{
-  "Issue Category": "Payment Issue",
-  "Priority": "Critical",
-  "Suggested Action": "Escalate to payments team and initiate refund process",
-  "Reason": "Duplicate payment detected along with strong negative sentiment"
-}
+<br/>
+{<br/>
+  "Issue Category": "Payment Issue",<br/>
+  "Priority": "Critical",<br/>
+  "Suggested Action": "Escalate to payments team and initiate refund process",<br/>
+  "Reason": "Duplicate payment detected along with strong negative sentiment"<br/>
+}<br/>
 
 
 
