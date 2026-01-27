@@ -128,4 +128,4 @@ Provides a simple and interactive web-based dashboard for real-time ticket analy
 
 Deployment: Local
 <br/>
-<h1>Output Snapshots are avialable in Output_Snapshots</h1>
+<h1>Output Snapshots are avialable in Output_Snapshots folder</h1>
