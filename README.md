@@ -43,7 +43,7 @@ Customer support ticket text:
 "My payment was deducted twice but the order is still pending. Very frustrated."
 
 
-### 📤 Output
+## 📤 Output
 The system generates a structured and explainable response for each customer support ticket.
 
 ```json
@@ -56,20 +56,20 @@ The system generates a structured and explainable response for each customer sup
 
 
 
-### 🛠 Tech Stack
 
-- **Programming Language:** Python  
-  Used for building the complete backend logic and AI integration.
+🛠 Tech Stack
 
-- **Generative AI:** OpenAI/Gemini/Groq (LLaMA-3) 
-  Enables fast and context-aware analysis of customer support tickets using large language models.
+Programming Language: Python
+Used for building the complete backend logic and AI integration.
 
-- **NLP Utilities:** scikit-learn  
-  Used for basic text preprocessing and supporting NLP operations.
+Generative AI: OpenAI / Gemini / Groq (LLaMA-3)
+Enables fast and context-aware analysis of customer support tickets using large language models.
 
-- **UI Framework:** Streamlit  
-  Provides a simple and interactive web-based dashboard for real-time ticket analysis.
+NLP Utilities: scikit-learn
+Used for basic text preprocessing and supporting NLP operations.
 
-- **Deployment:** Local 
-  The application is deployed locally for hackathon demonstrations, ensuring quick setup and reliable execution.
+UI Framework: Streamlit
+Provides a simple and interactive web-based dashboard for real-time ticket analysis.
 
+Deployment: Local
+The application is deployed locally for hackathon demonstrations, ensuring quick setup and reliable execution.
