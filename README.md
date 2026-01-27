@@ -32,7 +32,7 @@ AssistFlow AI acts as an **AI co-pilot for support agents** by:
 - Intelligent priority prediction  
 - Actionable solution recommendations  
 - Explainable AI output (reason behind decisions)  
-- Simple and interactive dashboard for demo  
+- Interactive dashboard  
 
 ---
 
@@ -44,6 +44,8 @@ Customer support ticket text:
 
 
 ### 📤 Output
+The system generates a structured and explainable response for each customer support ticket.
+
 ```json
 {
   "Issue Category": "Payment Issue",
@@ -52,7 +54,9 @@ Customer support ticket text:
   "Reason": "Duplicate payment detected along with strong negative sentiment"
 }
 
-## 🛠 Tech Stack
+
+
+### 🛠 Tech Stack
 
 - **Programming Language:** Python  
   Used for building the complete backend logic and AI integration.
